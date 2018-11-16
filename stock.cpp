@@ -10,7 +10,7 @@ Stock::Stock() // empty constructor.
     //ctor
 }
 
-ostream& operator<< (ostream& out,Stock a) //function to print the menu.
+ostream& operator<< (ostream& out , Stock a) //function to print the menu.
 {
     cout << setw(14) << "Item "
          << setw(8)  << "Cost "
